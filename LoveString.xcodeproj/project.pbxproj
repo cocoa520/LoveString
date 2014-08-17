@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE5F8CF2199F986D0029AE91 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5F8CF1199F986D0029AE91 /* CoreFoundation.framework */; };
+		EE5F8CF6199FB5210029AE91 /* MyValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5F8CF5199FB5210029AE91 /* MyValueFormatter.m */; };
+		EE92EC69199F1346002A7E9C /* HexFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE92EC68199F1346002A7E9C /* HexFormatter.m */; };
+		EE92EC73199F30B4002A7E9C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE92EC72199F30B4002A7E9C /* QuartzCore.framework */; };
 		EEADE1F9199E5AD300C82AA6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEADE1F8199E5AD300C82AA6 /* Cocoa.framework */; };
 		EEADE203199E5AD300C82AA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEADE201199E5AD300C82AA6 /* InfoPlist.strings */; };
 		EEADE205199E5AD300C82AA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEADE204199E5AD300C82AA6 /* main.m */; };
@@ -17,17 +21,23 @@
 
 /* Begin PBXFileReference section */
 		EE5F8CF1199F986D0029AE91 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		EE5F8CF4199FB5210029AE91 /* MyValueFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyValueFormatter.h; sourceTree = "<group>"; };
+		EE5F8CF5199FB5210029AE91 /* MyValueFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyValueFormatter.m; sourceTree = "<group>"; };
+		EE92EC67199F1346002A7E9C /* HexFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexFormatter.h; sourceTree = "<group>"; };
+		EE92EC68199F1346002A7E9C /* HexFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexFormatter.m; sourceTree = "<group>"; };
+		EE92EC6F199F2D84002A7E9C /* MyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyProtocol.h; sourceTree = "<group>"; };
+		EE92EC72199F30B4002A7E9C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EEADE1F4199E5AD300C82AA6 /* LoveString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveString.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEADE1F8199E5AD300C82AA6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		EEADE1FB199E5AD300C82AA6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		EEADE1FC199E5AD300C82AA6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		EEADE1FD199E5AD300C82AA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		EEADE200199E5AD300C82AA6 /* LoveString-Info.plist */ = {isa = PBXFileReference; path = "LoveString-Info.plist"; sourceTree = "<group>"; };
+		EEADE200199E5AD300C82AA6 /* LoveString-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoveString-Info.plist"; sourceTree = "<group>"; };
 		EEADE202199E5AD300C82AA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EEADE204199E5AD300C82AA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EEADE206199E5AD300C82AA6 /* LoveString-Prefix.pch */ = {isa = PBXFileReference; path = "LoveString-Prefix.pch"; sourceTree = "<group>"; };
+		EEADE206199E5AD300C82AA6 /* LoveString-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoveString-Prefix.pch"; sourceTree = "<group>"; };
 		EEADE208199E5AD400C82AA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		EEADE20A199E5AD400C82AA6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEADE20A199E5AD400C82AA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EEADE20B199E5AD400C82AA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EEADE20E199E5AD400C82AA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -37,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5F8CF2199F986D0029AE91 /* CoreFoundation.framework in Frameworks */,
+				EE92EC73199F30B4002A7E9C /* QuartzCore.framework in Frameworks */,
 				EEADE1F9199E5AD300C82AA6 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +59,8 @@
 		EEADE1E9199E5AD200C82AA6 = {
 			isa = PBXGroup;
 			children = (
+				EE5F8CF1199F986D0029AE91 /* CoreFoundation.framework */,
+				EE92EC72199F30B4002A7E9C /* QuartzCore.framework */,
 				EEADE1FE199E5AD300C82AA6 /* LoveString */,
 				EEADE1F7199E5AD300C82AA6 /* Frameworks */,
 				EEADE1F5199E5AD300C82AA6 /* Products */,
@@ -85,6 +99,11 @@
 			children = (
 				EEADE20A199E5AD400C82AA6 /* AppDelegate.h */,
 				EEADE20B199E5AD400C82AA6 /* AppDelegate.m */,
+				EE92EC6F199F2D84002A7E9C /* MyProtocol.h */,
+				EE92EC67199F1346002A7E9C /* HexFormatter.h */,
+				EE92EC68199F1346002A7E9C /* HexFormatter.m */,
+				EE5F8CF4199FB5210029AE91 /* MyValueFormatter.h */,
+				EE5F8CF5199FB5210029AE91 /* MyValueFormatter.m */,
 				EEADE20D199E5AD400C82AA6 /* MainMenu.xib */,
 				EEADE1FF199E5AD300C82AA6 /* Supporting Files */,
 			);
@@ -169,6 +188,8 @@
 			files = (
 				EEADE205199E5AD300C82AA6 /* main.m in Sources */,
 				EEADE20C199E5AD400C82AA6 /* AppDelegate.m in Sources */,
+				EE92EC69199F1346002A7E9C /* HexFormatter.m in Sources */,
+				EE5F8CF6199FB5210029AE91 /* MyValueFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +227,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -222,9 +243,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
@@ -232,7 +253,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -242,8 +263,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};
@@ -253,6 +274,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoveString/LoveString-Prefix.pch";
 				INFOPLIST_FILE = "LoveString/LoveString-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -264,6 +286,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoveString/LoveString-Prefix.pch";
 				INFOPLIST_FILE = "LoveString/LoveString-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -288,6 +311,7 @@
 				EEADE214199E5AD400C82AA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
