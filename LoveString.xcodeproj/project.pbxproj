@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE1ADA3D19A63C3100230D0C /* copy.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1ADA3C19A63C3100230D0C /* copy.png */; };
+		EE1ADA4419A63DF300230D0C /* copy2.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1ADA4319A63DF300230D0C /* copy2.png */; };
+		EE1ADA4C19A6476800230D0C /* lovestring.icns in Resources */ = {isa = PBXBuildFile; fileRef = EE1ADA4B19A6476800230D0C /* lovestring.icns */; };
 		EE5F8CF2199F986D0029AE91 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5F8CF1199F986D0029AE91 /* CoreFoundation.framework */; };
 		EE5F8CF6199FB5210029AE91 /* MyValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5F8CF5199FB5210029AE91 /* MyValueFormatter.m */; };
 		EE92EC69199F1346002A7E9C /* HexFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE92EC68199F1346002A7E9C /* HexFormatter.m */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE1ADA3C19A63C3100230D0C /* copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copy.png; sourceTree = "<group>"; };
+		EE1ADA4319A63DF300230D0C /* copy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copy2.png; sourceTree = "<group>"; };
+		EE1ADA4B19A6476800230D0C /* lovestring.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = lovestring.icns; sourceTree = "<group>"; };
 		EE5F8CF1199F986D0029AE91 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		EE5F8CF4199FB5210029AE91 /* MyValueFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyValueFormatter.h; sourceTree = "<group>"; };
 		EE5F8CF5199FB5210029AE91 /* MyValueFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyValueFormatter.m; sourceTree = "<group>"; };
@@ -59,6 +65,7 @@
 		EEADE1E9199E5AD200C82AA6 = {
 			isa = PBXGroup;
 			children = (
+				EE1ADA4B19A6476800230D0C /* lovestring.icns */,
 				EE5F8CF1199F986D0029AE91 /* CoreFoundation.framework */,
 				EE92EC72199F30B4002A7E9C /* QuartzCore.framework */,
 				EEADE1FE199E5AD300C82AA6 /* LoveString */,
@@ -97,6 +104,8 @@
 		EEADE1FE199E5AD300C82AA6 /* LoveString */ = {
 			isa = PBXGroup;
 			children = (
+				EE1ADA3C19A63C3100230D0C /* copy.png */,
+				EE1ADA4319A63DF300230D0C /* copy2.png */,
 				EEADE20A199E5AD400C82AA6 /* AppDelegate.h */,
 				EEADE20B199E5AD400C82AA6 /* AppDelegate.m */,
 				EE92EC6F199F2D84002A7E9C /* MyProtocol.h */,
@@ -176,6 +185,9 @@
 				EEADE203199E5AD300C82AA6 /* InfoPlist.strings in Resources */,
 				EEADE209199E5AD400C82AA6 /* Credits.rtf in Resources */,
 				EEADE20F199E5AD400C82AA6 /* MainMenu.xib in Resources */,
+				EE1ADA3D19A63C3100230D0C /* copy.png in Resources */,
+				EE1ADA4419A63DF300230D0C /* copy2.png in Resources */,
+				EE1ADA4C19A6476800230D0C /* lovestring.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
